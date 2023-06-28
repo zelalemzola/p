@@ -184,6 +184,8 @@ nav .menu .menu_icon:hover .icon:after {
 } */
 
 .wrapper {
+  marign:0;
+  
   display: grid;
   grid-template-columns: 1fr;
   justify-content: center;
