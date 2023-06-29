@@ -581,7 +581,7 @@ nav .menu .menu_links .link:hover:before {
     display: flex;
     margin-top: 10%;
     width:25%;
-    height:41vh;
+    height:42vh;
     flex-direction:column;
     align-items: center;
     background: #934A5F;
@@ -625,20 +625,24 @@ nav .menu .menu_links .link:hover:before {
 .por:hover h2
 {
     
-    padding-top: 20%;
+    padding-top: 3%;
     padding-bottom:70%;
 }
 .por:hover .desc
 {
-     transform: translateY(-130%);
+     transform: translateY(-100%);
+}
+.por:hover .desc1
+{
+  transform: translateY(-80%);
 }
 .por:hover .desc3
 {
-  transform: translateY(-180%);
+  transform: translateY(-100%);
 }
 .por:hover .desc4
 {
-  transform: translateY(-180%);
+  transform: translateY(-120%);
 }
 .contact
 {
