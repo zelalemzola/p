@@ -570,6 +570,7 @@ nav .menu .menu_links .link:hover:before {
     background-color: #57648C;
     display: flex;
     justify-content: space-evenly;
+    align-items: flex-start;
     flex-wrap: wrap;
     padding:3%;
     border-radius: 4%;
@@ -578,6 +579,7 @@ nav .menu .menu_links .link:hover:before {
 .por
 {
     display: flex;
+    margin-top: 10%;
     width:25%;
     height:41vh;
     flex-direction:column;
@@ -623,12 +625,20 @@ nav .menu .menu_links .link:hover:before {
 .por:hover h2
 {
     
-    padding-top: 0%;
-    padding-bottom:75%;
+    padding-top: 20%;
+    padding-bottom:70%;
 }
 .por:hover .desc
 {
-     transform: translateY(-85%);
+     transform: translateY(-130%);
+}
+.por:hover .desc3
+{
+  transform: translateY(-180%);
+}
+.por:hover .desc4
+{
+  transform: translateY(-180%);
 }
 .contact
 {
